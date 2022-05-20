@@ -1,0 +1,59 @@
+TAG PADA HTML
+
+A. Tag yang dapat dituliskan dalam tag <head>
+    1. <title>  => Memberi nama pada judul halaman
+
+    2. <style>  => Menyisipkan file CSS
+
+    3. <script> => Menyisipkan file javascript
+
+    4. <meta>   => Menyisipkan metadata (Mempermudah search engine mencari website kita)
+
+
+B. Tag yang dapat dituliskan dalam tag <body>
+    1. <h1>, <h2>, <h3> <h4>, <h5>, <h6>, <p>, ...  => Menuliskan teks dengan ukuran yang berbeda
+
+    2. <br>, <hr>, <em>, <strong>, ...              => Memberi dukungan pada teks yang ditulis
+
+    3. <img>                                        => Menyisipkan file gambar (jpg, png, ...) ke dalam HTML
+
+    4. <a>                                          => Menyimpan hyperlink yang menghubungkan web dengan program
+
+    5. <ul>, <ol>, <li>, <dl>, <dt>, <dd>           => Membuat list (titik, nomor)
+
+    6. <table>, <thead>, <tbody>, ...               => Menyisipkan table
+
+    7. <form>, <input>, <select>, <button>, ...     => Membuat form/isian beserta elemen pendukungnya
+
+    8. <script>                                     => Menyisipkan file javascript
+
+    9. <div>, <span>                                => Melakukan grouping/pengelompokkan pada tag2 di HTML
+
+
+C. Struktur dari sebuah tag
+    <namaTag atribut="nilai"></namaTag>
+    Sebuah tag boleh tidak memiliki atribut dan tidak masalah juga jika ingin memiliki banyak atribut
+
+    Contoh 1 (1 atribut):
+    <body bgcolor="lightblue">  ==> Tidak disarankan mengubah tampilan menggunakan HTML
+                                    Tugas mengubah tampilan adalah CSS
+
+    Keterangan:
+    1. namaTag  = body      
+    2. atribut  = bgcolor    => Mengatur warna background dari tag body
+    3. nilai    = lightblue  => Warna yang diinginkan.
+
+
+    Contoh 2 (Banyak atribut):
+    <body bgcolor="lightblue" id="myid" class="myclass">
+
+
+D. Atribut global
+    1. accesskey    => Memberikan kemampuan sebuah tag agar dapat diakses menggunakan keyboard
+    2. class        => Mempermudah pengaksesan (Bekerja seperti alamat)
+    3. id           => Mempermudah pengaksesan (Bekerja seperti alamat)
+    4. dir          => Menentukan arah tulisan 
+    5. lang         => Menentukan bahasa
+    6. style        => Menyisipkan inline CSS
+    7. tabindex     => Mengatur kursor saat menekan key TAB saat mengisi form 
+    8. title        => Memberi judul pada sebuah elemen

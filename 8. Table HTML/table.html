@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Table</title>
+</head>
+<body>
+
+    <h2>Simple Table</h2>
+    <table border="1" cellspacing="0">
+        <tr>
+            <td>Baris 1 Kolom 1</td>
+            <td>Baris 1 Kolom 2</td>
+        </tr>
+        <tr>
+            <td>Baris 2 Kolom 1</td>
+            <td>Baris 2 Kolom 2</td>
+        </tr>
+    </table>
+
+
+
+    <br> <hr>
+
+
+    <!-- border memberi garis2 pada tabel -->
+    <!-- cellspacing memberi spasi/jarak antar cell pada tabel -->
+    <!-- cellpadding memperbesar luas cell pada tabel -->
+    <h2>Complex Table (Border, Cellspacing, Cellpadding)</h2>
+
+    <table border="2" cellspacing="5" cellpadding="5"> 
+        <thead>                     <!-- Menentukan head pada table -->
+            <tr>                    <!-- Head pada tabel terdiri beberapa kolom dalam 1 baris -->
+                <th></th>           <!-- Memberi kolom kosong pada bagian head baris 1-->
+                <th>Kolom 1</th>    <!-- Mengisikan data pada baris 1  -->
+                <th>Kolom 2</th>    <!-- Mengisikan data pada baris 1  -->
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Baris 1</th>
+                <td>Baris 1, Kolom 1</td>
+                <td>Baris 1, Kolom 2</td>
+            </tr>
+            <tr>
+                <th>Baris 2</th>
+                <td>Baris 2, Kolom 1</td>
+                <td>Baris 2, Kolom 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <br> <hr>
+
+
+
+    <!-- Merging Table -->
+    <h2>Merging Table</h2>
+
+    <table border="1", cellspacing="0" cellpadding="7">
+        <tr>
+            <td rowspan="3">rowspan 3</td>
+            <td colspan="2">colspan 2</td>
+        </tr>
+
+        <tr>
+            <!-- <td>2,1</td> -->
+            <td>2,2</td>
+            <td>2,3</td>
+        </tr>
+
+        <tr>
+            <!-- <td>3,1</td> -->
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+    </table>
+
+
+
+    <br> <hr>
+
+
+    
+    <h2>LATIHAN</h2>
+    <table border="1", cellspacing="0" cellpadding="7">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+
+        <tr>
+            <td>2,1</td>
+            <td colspan="2" rowspan="2">?</td>
+            <td>2,4</td>
+        </tr>
+
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

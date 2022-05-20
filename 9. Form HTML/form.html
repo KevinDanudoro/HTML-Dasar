@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+
+    <form action="">  
+        <label for="username">Username: </label> 
+        <input type="text" id="username">   <!-- for pada label harus sama dengan id di tag input/tag lainnya-->
+
+        <br> <hr> 
+
+        <label for="password">Password: </label>
+        <input type="password" id="password">
+
+        <br> <hr>
+    
+        <input type="radio" id="radioPria" name="jenisKelamin">
+        <label for="radioPria">Laki-Laki</label>
+
+        <input type="radio" id="radioWanita" name="jenisKelamin">
+        <label for="radioWanita">Perempuan</label>
+
+        <br> <hr> 
+    
+        <input type="checkbox" id="Tugas 1">
+        <label for="Tugas 1">Tugas 1</label>
+
+        <input type="checkbox" id="Tugas 2">
+        <label for="Tugas 2">Tugas 2</label>
+
+        <input type="checkbox" id="Tugas 3">
+        <label for="Tugas 3">Tugas 3</label>
+
+        <input type="checkbox" id="Tugas 4">
+        <label for="Tugas 4">Tugas 4</label>
+    
+        <br> <hr>
+
+        <label for="asal">Kota asal: </label>
+        <select name="kota" id="asal">
+            <option value="1">Jakarta</option>
+            <option value="2">Bandung</option>
+            <option value="3">Tangerang</option>
+            <option value="4">Bekasi</option>
+        </select>
+
+        <br> <hr>
+
+        <label for="essay">Essay tentang anda: </label> <br>
+        <textarea name="aboutMe" id="essay" cols="30" rows="10"></textarea>
+
+        <br> <hr>
+        <!-- submit => mengirim data, reset => menghapus data, button => memberi fungsi spesifik -->
+        <!-- Gunakan tag button lebih baik! -->
+        <input type="reset" value="Kirim! input">
+        <button type="submit">Kirim! Button</button>
+
+    </form> <br> <br> <br>
+
+
+
+<!-- ================================================================================================== -->
+
+
+
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td><label for="username">Username: </label> </td>
+            <td><input type="text" id="username"> </td>
+        </tr>
+        
+        <tr>
+            <td><label for="password">Password: </label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="radio" id="radioPria" name="jenisKelamin">
+                <label for="radioPria">Laki-Laki</label>
+        
+                <input type="radio" id="radioWanita" name="jenisKelamin">
+                <label for="radioWanita">Perempuan</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="Tugas 1">
+                <label for="Tugas 1">Tugas 1</label>
+        
+                <input type="checkbox" id="Tugas 2">
+                <label for="Tugas 2">Tugas 2</label>
+        
+                <input type="checkbox" id="Tugas 3">
+                <label for="Tugas 3">Tugas 3</label>
+        
+                <input type="checkbox" id="Tugas 4">
+                <label for="Tugas 4">Tugas 4</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="asal">Kota asal: </label></td>
+            <td>
+                <select name="kota" id="asal">
+                    <option value="1">Jakarta</option>
+                    <option value="2">Bandung</option>
+                    <option value="3">Tangerang</option>
+                    <option value="4">Bekasi</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="essay">Essay: </td>
+            <td><textarea name="aboutMe" id="essay" cols="30" rows="10"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="reset" value="Kirim! input">
+                <button type="submit">Kirim! Button</button>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
